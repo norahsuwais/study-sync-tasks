@@ -1,0 +1,100 @@
+
+ /* Container for Login/Register*/
+
+ .auth-container {
+  display: flexbox;   /* Use flexbox for easy centering */
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 16px;
+  /* justify-content: center;  /* Center horizontally */
+  /* align-items: center;      Center vertically */ 
+  height: 100vh;    
+  background-color: #b3d1e4;  /* Light background color */
+  font-family: 'Cambia';
+
+} 
+
+
+/* 
+   Form styling
+   Adds padding, background color, shadow, and rounded corners
+ */
+
+.auth-form {
+  display: flex;
+  flex-direction: column; /* stack inputs vertically */
+  gap: 16px; /* spacing between inputs */
+  background-color: rgb(255, 255, 255);
+  padding: 32px;  /* Inner spacing */
+  border-radius: 12px;  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+  width: 420px; /* Fixed width */
+  text-align: center; 
+  margin: 0 auto;
+  font-family: Cambria, serif;
+ 
+}
+
+/* 
+   Form heading (h2)
+*/
+
+.auth-form h2 {
+  color: #4a4957; /* Indigo text color */
+  margin-bottom: 24px;  /* Space below heading */
+  font-family: Cambria, serif;
+}
+.site-title {
+  font-family: Cambria, serif;  /* match rest of the page */
+  color: #0c0c0c;               /* optional accent color */
+  font-size: 40px;              /* big enough to stand out */
+  text-align: center;
+  margin-bottom: 24px;          /* space between title and form */
+   margin-top: 10px; 
+}
+
+.auth-form input {
+  width: 100%; /* Take full width of form */
+  padding: 12px;  /* Space inside inputs */
+  /* margin-bottom: 16px;  /* Space between inputs */
+  border: 1px solid #cccccc; /* Light border */
+  border-radius: 6px;  /* Rounded corners */
+  font-size: 16px;
+  font-family: Cambria, serif;
+}
+
+.auth-form button {
+  width: 100%;    /* Full width button */
+  padding: 10px;  /* Space inside button */
+  background-color: #0c094b; /* Indigo background */
+  color: white; /* White text */
+  border: none;  /* Remove default border */
+  border-radius: 6px;   /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+  font-weight: bold;  /* Bold text */
+}
+
+.auth-form button:hover {
+  background-color: #4338ca;
+}
+
+/* =======================
+   Paragraph text inside form
+   (like "Forgot password?" or "Register")
+======================= */
+.auth-form p {
+  margin-top: 16px; /* Space above paragraph */
+  font-size: 14px; /* Space above paragraph */
+}
+/* =======================
+   Links inside paragraphs
+======================= */
+
+.auth-form a {
+  color: #2a2938;   /* Indigo link color */
+  text-decoration: underline;  /* Underline for links */
+}
+
+.input-wrapper {
+  width: 100%;
+}
